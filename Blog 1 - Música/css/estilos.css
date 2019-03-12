@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+.logo{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.logo1{
+	width: 150px;
+	height: 150px;
+}
+.redes-sociales{
+	margin-top: 100px;
+}
+
+.bar-nav{
+	background-color:dodgerblue;
+	
+}
+
+.fa{
+	background: white;
+}
+
+.menu{
+	color: aliceblue;
+	height: 50px;
+	text-align: center;
+	padding-top: 15px;
+	
+}
+
+.menu:hover{
+	color: black;
+	background: white;
+}
+
+@media screen and (min-width: 0px) and (max-width: 500px) {
+    .redes-sociales{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 995px) {
+    .ocultar-sm-xs{
+        display: none;
+    }
+}

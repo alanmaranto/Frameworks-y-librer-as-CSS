@@ -1,0 +1,47 @@
+body{
+    background-color: antiquewhite;
+    background-attachment: fixed;
+    background-position: center top;
+    overflow-x: hidden;
+}
+
+.container{
+    margin: 10px 10% 10px 10% !important;
+}
+
+.menu{
+    font-weight: 700;
+}
+
+
+.imagen-comida{
+    margin: 10px 10% 10px 10%;
+    width: 50%;
+    min-width: 200px;
+}
+
+.contenido{
+    margin-left: 20px;
+    background: white;
+    padding: 15px 10px 0 10px;
+}
+
+.barra-lateral{
+    background: white;
+    padding: 15px 10px 0 10px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 690px){
+    .barra-lateral{
+        display: none;
+    }
+}
+
+.favs{
+    width: 95%;
+    padding-left: 40px;
+}
+
+.historial{
+    margin-left: 10px;
+}
